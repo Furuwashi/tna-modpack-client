@@ -53,6 +53,12 @@ foreach ($url in $urls) {
     Write-Host "----------------------------------------"
 }
 
+# --- Le rafraîchissement ---
+Write-Host "Mise à jour de l'index global (packwiz refresh)..." -ForegroundColor Yellow
+.\packwiz.exe refresh
+Write-Host "Index mis à jour avec succès !" -ForegroundColor Green
+Write-Host "----------------------------------------"
+
 # On revient proprement dans le dossier scripts/
 Pop-Location
 
