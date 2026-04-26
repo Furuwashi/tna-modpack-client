@@ -265,6 +265,11 @@ hash = "e7a6cda82ddd91e08e2fbadff97d4590861f0ca78d9fa12a8693de25f48a58ac"
 metafile = true
 
 [[files]]
+file = "mods/customskinloader.pw.toml"
+hash = "f857ff518984afe54b1253ef40ce2d4b354a6d7bda024373e47a2be1d4932982"
+metafile = true
+
+[[files]]
 file = "mods/default-options.pw.toml"
 hash = "ef7868aa3a029cdb7a9a46fc3f55ae12c4bc86cb5d92ae889ed554acfa229c45"
 metafile = true
