@@ -1,0 +1,13 @@
+name = "Rock And Stone!"
+filename = "rock_and_stone-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/cS2Payt7/versions/kGtj1xBi/rock_and_stone-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "b4b819e16cd6c32da69db7a91257d6826b69b8cba168b2b085eb0d8c0433452a7d42f0343699850ce4dc05c8fcd3a1aeaa147152f432cec52d41fcf7a709731d"
+
+[update]
+[update.modrinth]
+mod-id = "cS2Payt7"
+version = "kGtj1xBi"
