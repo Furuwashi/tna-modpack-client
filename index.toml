@@ -434,6 +434,11 @@ hash = "593fa7b30ab016aa45be07bd6bef3a9f160ed0f24689850d60bf84995d69b843"
 metafile = true
 
 [[files]]
+file = "mods/terrablender.pw.toml"
+hash = "15962183bec2468058c70e87aa32e902a08489b0f86741088cdc9aa958ba4931"
+metafile = true
+
+[[files]]
 file = "mods/worldedit.pw.toml"
 hash = "08d4775f8546564ad812b09062633ffc48f44b76328efe3832c021651af86b14"
 metafile = true
