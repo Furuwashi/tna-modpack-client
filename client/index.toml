@@ -18,7 +18,7 @@ hash = "9f0ada5a7f0193d2d717d1c1736f545f5235c2597213731493b97488617ebbf2"
 
 [[files]]
 file = "config/fancymenu/customization/tna_server_join_interface_layout.txt"
-hash = "be6c5f687fb8b3a8d4dd236cc1fca072c97b8f15d34e28fc42cb21f4e7727ab6"
+hash = "7d678369d30c1f2c8c50cd74c3b9b78586b0c807962c6bb4f93ee231400ebff9"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
