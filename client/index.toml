@@ -22,7 +22,7 @@ hash = "7d678369d30c1f2c8c50cd74c3b9b78586b0c807962c6bb4f93ee231400ebff9"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
-hash = "d4e66bc22fcfa56158ca7100017623c71b1437fb4722229b6e064e0a48a5f5de"
+hash = "37e09cc4bce348c61efb02542dcc6e95a91607698b64627391c407933c57ee7b"
 
 [[files]]
 file = "config/fancymenu/legacy_checklist.txt"
@@ -262,11 +262,6 @@ metafile = true
 [[files]]
 file = "mods/createnuclear.pw.toml"
 hash = "e7a6cda82ddd91e08e2fbadff97d4590861f0ca78d9fa12a8693de25f48a58ac"
-metafile = true
-
-[[files]]
-file = "mods/customskinloader.pw.toml"
-hash = "f857ff518984afe54b1253ef40ce2d4b354a6d7bda024373e47a2be1d4932982"
 metafile = true
 
 [[files]]
