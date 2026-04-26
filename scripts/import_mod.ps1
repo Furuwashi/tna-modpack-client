@@ -1,28 +1,59 @@
-# Définition du chemin vers le fichier contenant les liens
-$cheminFichier = "lien.csv"
+param (
+    [Parameter(Mandatory=$true, HelpMessage="Spécifiez la cible : 'client' (c) ou 'server' (s)")]
+    [ValidateSet('client', 'c', 'server', 's')]
+    [string]$Cible
+)
 
-# Vérification de la présence du fichier
+# Configuration selon le paramètre choisi
+if ($Cible -eq 'client' -or $Cible -eq 'c') {
+    $nomDossier = "..\client"
+    $nomFichier = "lien-client.csv"
+    $nomAffichage = "Client"
+} else {
+    $nomDossier = "..\server"
+    $nomFichier = "lien-server.csv"
+    $nomAffichage = "Serveur"
+}
+
+# Utilisation de $PSScriptRoot pour garantir que les chemins sont toujours corrects,
+# même si tu lances le script depuis un autre dossier.
+$cheminFichier = Join-Path -Path $PSScriptRoot -ChildPath $nomFichier
+$cheminCible   = Join-Path -Path $PSScriptRoot -ChildPath $nomDossier
+
+# Vérifications
 if (-Not (Test-Path -Path $cheminFichier)) {
-    Write-Error "Le fichier $cheminFichier est introuvable."
+    Write-Error "Le fichier $nomFichier est introuvable dans le dossier scripts/."
     exit
 }
 
-# Lecture du fichier ligne par ligne
+if (-Not (Test-Path -Path $cheminCible)) {
+    Write-Error "Le dossier cible $nomDossier est introuvable."
+    exit
+}
+
+# Lecture du fichier
 $urls = Get-Content -Path $cheminFichier
+
+Write-Host "Début de l'importation pour le $nomAffichage..." -ForegroundColor Yellow
+
+# On sauvegarde l'emplacement actuel et on se déplace dans le dossier cible
+# C'est vital car packwiz doit s'exécuter là où se trouve le pack.toml
+Push-Location -Path $cheminCible
 
 # Boucle sur chaque URL
 foreach ($url in $urls) {
-    # Nettoyage des espaces et on ignore les lignes vides
     $url = $url.Trim()
     if ([string]::IsNullOrWhiteSpace($url)) { continue }
 
     Write-Host "Ajout en cours : $url" -ForegroundColor Cyan
 
-    # Exécution de packwiz. 
-    # Le "'n' |" envoie automatiquement "n" (non) si packwiz demande une confirmation.
+    # Exécution du packwiz local au dossier cible
     'n' | .\packwiz.exe modrinth add $url
     
     Write-Host "----------------------------------------"
 }
 
-Write-Host "Tous les liens ont été traités !" -ForegroundColor Green
+# On revient proprement dans le dossier scripts/
+Pop-Location
+
+Write-Host "Tous les liens ont été traités pour le $nomAffichage !" -ForegroundColor Green
