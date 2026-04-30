@@ -270,6 +270,11 @@ hash = "d65a013fc6ad1b6e1470e05c9efe7825e988b47415a033fef6d9b91474b488cb"
 metafile = true
 
 [[files]]
+file = "mods/customnpcs-unofficial.pw.toml"
+hash = "ea6b6845387f8d990e607eaa98d027734f7d1a8823434ef901f81a5736d60aa9"
+metafile = true
+
+[[files]]
 file = "mods/default-options.pw.toml"
 hash = "42b02c8b9802d2733bb11911130803a66e3e74d9dede5fd5654b1f61e7ced3de"
 metafile = true
