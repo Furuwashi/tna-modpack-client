@@ -10,15 +10,15 @@ hash = "ae8644da5457789b6fe91ed24ef9fbcff267f39901e715434978a1c1e6665667"
 
 [[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
-hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
+hash = "7d4410bcfc1dcf3265c53842a57f0f9d95a07131d4de67116a9f65def0bcf54a"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "9f0ada5a7f0193d2d717d1c1736f545f5235c2597213731493b97488617ebbf2"
+hash = "b74f43ce4f1cfaf0c6ce586d2b5129953e2e107d65ec0f20de4e96ddd58af597"
 
 [[files]]
 file = "config/fancymenu/customization/tna_server_join_interface_layout.txt"
-hash = "7d678369d30c1f2c8c50cd74c3b9b78586b0c807962c6bb4f93ee231400ebff9"
+hash = "e8246b09bf109b2da0ba1b1b1ffd925c636c697e5e65fb210f84627318cdecfd"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -26,23 +26,23 @@ hash = "37e09cc4bce348c61efb02542dcc6e95a91607698b64627391c407933c57ee7b"
 
 [[files]]
 file = "config/fancymenu/legacy_checklist.txt"
-hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
+hash = "878c9368bec63cd86822b28ceca345704ebaa411f7b72dd0bb4e682235b790e1"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "461d9eea2eecabb25bc74ad13fa6f6af6a470adc0697dbb05368c3a22f26fe70"
+hash = "9a05ea706ce42e79783e2b9f72ae33ef2c2869526c57e13469bd97a50f83fd20"
 
 [[files]]
 file = "config/fancymenu/ui_themes/dark.json"
-hash = "3f1263eaf693fdb6a315099b06797ac18830faa66c620916a80337a5082fd850"
+hash = "721c745374aa8a361884fdea1ceac9799963a0033568fecf169875e262b06eb7"
 
 [[files]]
 file = "config/fancymenu/ui_themes/light.json"
-hash = "3fcfc5f9957fbb86aea846c9ad49a24f47ca709c523c4018b584668e38b72f41"
+hash = "c27f3d4b0eb2f8c9abc28beb8c4a4ee4571ec677e0336740ec73f53432d5cfe8"
 
 [[files]]
 file = "config/fancymenu/user_variables.db"
-hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
+hash = "1b287025595ebc2862c9506ced6505f23189bd6f79c03bac717ad56d90c68394"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -325,6 +325,11 @@ hash = "67f7b4ff6681b028e1a95917cfba7ae9e41d5fc53359b84e88168a83800469f7"
 metafile = true
 
 [[files]]
+file = "mods/ftb-chunks-forge.pw.toml"
+hash = "100d56915243e9a577ec572cc118628e3bef2f1e7be015585335d307dbb5dc19"
+metafile = true
+
+[[files]]
 file = "mods/ftb-library-forge.pw.toml"
 hash = "54b6ce5c7ccf54db4cf8888e1c7e56b2d840cddc0e3e3fd15869a03d5c76c2ef"
 metafile = true
@@ -342,6 +347,11 @@ metafile = true
 [[files]]
 file = "mods/ftb-xmod-compat.pw.toml"
 hash = "43287a3c5030a05b370b45ec1ab9a4a8d5c3d43e9c740aae5218f07ffd041fd2"
+metafile = true
+
+[[files]]
+file = "mods/ftbchunksaerospace.pw.toml"
+hash = "2001df493febbb65b823cc435da6707d2883592024283a546a3b3642109a7dd4"
 metafile = true
 
 [[files]]
@@ -447,11 +457,6 @@ metafile = true
 [[files]]
 file = "mods/northstar-redux.pw.toml"
 hash = "bf6fddaaf67b2d4ab6261ef8c78f31aeac6fb4b152306eb4a31139801eb0726f"
-metafile = true
-
-[[files]]
-file = "mods/open-parties-and-claims.pw.toml"
-hash = "f3a677f5980163f3343e6ba0ad16e1dd2e2f22aff1da69bcfbe8bfa63d7b2529"
 metafile = true
 
 [[files]]
