@@ -613,3 +613,7 @@ metafile = true
 file = "mods/zeta.pw.toml"
 hash = "bc0438a2fcfe47a3ab855c8f28fe7775c6ea274ef8a168093496bd6653d11e32"
 metafile = true
+
+[[files]]
+file = "resourcepacks/tutoriel_guide.zip"
+hash = "6930a62553daca28cd43f53322322435b2645068f1a73ca0debcdd5ab63afc76"
