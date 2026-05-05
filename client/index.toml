@@ -1,6 +1,18 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/defaultoptions/keybindings.txt"
+hash = "903ca2c934dc6acd58eb58e7a8e13d8c2e7eb8fb84b9ee26513e1cdeffc85041"
+
+[[files]]
+file = "config/defaultoptions/options.txt"
+hash = "086aa3dce5d21d6229db64a7d525726dc3a0c7446d1f1c0e0ef5f4a54d5adae4"
+
+[[files]]
+file = "config/defaultoptions/servers.dat"
+hash = "18d18c4039e7db626047d7714e71392c36970d82e0777af07e574f248317c02b"
+
+[[files]]
 file = "config/fancymenu/assets/button_join_tna_hover.png"
 hash = "d6f2a68c3b107abb31fcc58ebe67b1f1f74aed36c7fdc927f154170fd10cf288"
 
@@ -30,7 +42,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "0154b86bbc44596136de46746cfd5b84308b02cbf9bfd39b5312e958933f1b6c"
+hash = "461d9eea2eecabb25bc74ad13fa6f6af6a470adc0697dbb05368c3a22f26fe70"
 
 [[files]]
 file = "config/fancymenu/ui_themes/dark.json"
