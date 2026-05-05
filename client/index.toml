@@ -18,11 +18,11 @@ hash = "9f0ada5a7f0193d2d717d1c1736f545f5235c2597213731493b97488617ebbf2"
 
 [[files]]
 file = "config/fancymenu/customization/tna_server_join_interface_layout.txt"
-hash = "7d678369d30c1f2c8c50cd74c3b9b78586b0c807962c6bb4f93ee231400ebff9"
+hash = "f09e9a9e691c19d51cd4b611f6f8b9b92683b579691e9f0d785b4b7810cb34f0"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
-hash = "37e09cc4bce348c61efb02542dcc6e95a91607698b64627391c407933c57ee7b"
+hash = "d4e66bc22fcfa56158ca7100017623c71b1437fb4722229b6e064e0a48a5f5de"
 
 [[files]]
 file = "config/fancymenu/legacy_checklist.txt"
@@ -30,7 +30,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "461d9eea2eecabb25bc74ad13fa6f6af6a470adc0697dbb05368c3a22f26fe70"
+hash = "0154b86bbc44596136de46746cfd5b84308b02cbf9bfd39b5312e958933f1b6c"
 
 [[files]]
 file = "config/fancymenu/ui_themes/dark.json"
