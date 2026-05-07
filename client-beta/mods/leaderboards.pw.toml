@@ -1,0 +1,13 @@
+name = "Leaderboards"
+filename = "leaderboards-1.21.1-NeoForge-2.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9f7d4c02aa5d90d7120556e758a9be6bf932e8f4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7932810
+project-id = 1367888

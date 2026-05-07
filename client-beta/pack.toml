@@ -1,0 +1,13 @@
+name = "tna-client"
+author = "Phargot&Furuwashi"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "99a0182baaa73089c32255cbaae7cfe03a8ae6c960a49a278f084076fa6ed171"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.228"
