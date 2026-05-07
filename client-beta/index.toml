@@ -417,11 +417,6 @@ hash = "19d40889988c81797b7307934feec03d24f4fb68a108f8a1caa304e14318eb75"
 metafile = true
 
 [[files]]
-file = "mods/journeymap.pw.toml"
-hash = "51913b8b1d6f9fa4812a1ce24b1a924d536df9817d2af4d9be4a593dcddb2061"
-metafile = true
-
-[[files]]
 file = "mods/konkrete.pw.toml"
 hash = "aebe7d9bce331d857dde6847cd60cbc821486054d3d55b382058e0a573ed4f22"
 metafile = true
@@ -574,6 +569,16 @@ metafile = true
 [[files]]
 file = "mods/wunderlib-neoforge.pw.toml"
 hash = "c127fa30cbbb12a4d36269080ced5afc621f03ac605fa019023ff901657515ef"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap.pw.toml"
+hash = "d609fad21021c5578750019bbe247515af55b0d1284ef838e42ef4ad0d5fbff4"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "ac287f392613eddfa285620dcecb3fea25ee6232a201009cde5c5511b6a39fb9"
 metafile = true
 
 [[files]]
