@@ -427,6 +427,11 @@ hash = "aebe7d9bce331d857dde6847cd60cbc821486054d3d55b382058e0a573ed4f22"
 metafile = true
 
 [[files]]
+file = "mods/lambdynamiclights.pw.toml"
+hash = "3d3ed33673e54ea000116c1309de659503e05457104e9a68a236bab475341f3a"
+metafile = true
+
+[[files]]
 file = "mods/leaderboards.pw.toml"
 hash = "37a1470a5f694c7f1b363da59eb292e069999b52bbfbe3d20c76dc2b75b6be32"
 metafile = true
